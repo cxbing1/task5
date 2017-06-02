@@ -9,17 +9,18 @@ module.exports = function main() {
 `);
 };
 
-class Sequence {
+function Sequence(input) {
  
-    var a=1;
-  constructor(input) {
+   this.a=input;
+ /* constructor(input) {
       this.a=input;
     // Write your code here
   }
+  */
 
-  minimum() {
+  this.minimum()=function {
       var min=a[0];
-      
+     
       for(var i=1;i<a.length;i++)
           if(min>a[i])
               min=a[i];
@@ -27,7 +28,7 @@ class Sequence {
     // Write your code here
   }
     
-    maxmum()
+   this.maxmum=function()
     {
         var max=a[0];
       
@@ -37,7 +38,7 @@ class Sequence {
       return max;
     }
     
-    avgmum()
+    this.avgmum=function()
     {
         var sum=0;
         
@@ -48,7 +49,7 @@ class Sequence {
     }
     
     
-    length()
+    this.length=function()
     {
         return a.length;
     }
