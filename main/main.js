@@ -35,7 +35,7 @@ module.exports = function main() {
         
         for(var i=0;i<a.length;i++)
             sum+=a[i];
-        return sum/a.length;
+        return Math.floor(sum/a.length*100)/100;
             
     }
     
