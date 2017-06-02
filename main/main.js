@@ -1,11 +1,9 @@
 module.exports = function main() {
     let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
     console.log(`o) 最小值 = ${sequence.minimum()}
-                    最大值 = ${sequence.maxmum()}
-                    元素数量 = ${sequence.length()}
-                    平均值 = ${sequence.avgmum()}
-                   
-// Write your code here
+                 o) 最大值 = ${sequence.maxmum()}
+                 o)元素数量 = ${sequence.length()}
+                 o)平均值 = ${sequence.avgmum()}  
 `);
 };
 
@@ -18,7 +16,7 @@ function Sequence(input) {
   }
   */
 
-  this.minimum()=function(){
+  this.minimum=function(){
       var min=a[0];
      
       for(var i=1;i<a.length;i++)
