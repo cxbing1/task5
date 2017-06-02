@@ -18,7 +18,7 @@ function Sequence(input) {
   }
   */
 
-  this.minimum()=function {
+  this.minimum()=function(){
       var min=a[0];
      
       for(var i=1;i<a.length;i++)
