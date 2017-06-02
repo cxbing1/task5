@@ -11,6 +11,7 @@ module.exports = function main() {
 
 class Sequence {
  
+    var a;
   constructor(input) {
       this.a=input;
     // Write your code here
