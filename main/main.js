@@ -2,7 +2,7 @@ module.exports = function main() {
     let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
     console.log(`o) 最小值 = ${sequence.minimum()}
                     最大值 = ${sequence.maxmum()}
-                    元素数量 = ${sequence.maxmum()}
+                    元素数量 = ${sequence.length()}
                     平均值 = ${sequence.avgmum()}
                    
 // Write your code here
@@ -11,7 +11,7 @@ module.exports = function main() {
 
 class Sequence {
  
-    
+    var a;
   constructor(input) {
       this.a=input;
     // Write your code here
