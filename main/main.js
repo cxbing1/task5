@@ -1,8 +1,8 @@
 module.exports = function main() {
     
-    function Sequence(input) {
+    function Sequence(a) {
  
-   this.a=input;
+   this.a=a;
  /* constructor(input) {
       this.a=input;
     // Write your code here
