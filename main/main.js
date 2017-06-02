@@ -1,6 +1,18 @@
 module.exports = function main() {
     
-    function Sequence(a) {
+    
+    
+    
+    
+    
+    var sequence = new Sequence([6, 9, 15, -2, 92, 11]);
+    console.log(`o) 最小值 = ${sequence.minimum()}
+o) 最大值 = ${sequence.maxmum()}
+o) 元素数量 = ${sequence.length()}
+o) 平均值 = ${sequence.avgmum()}`);
+};
+
+function Sequence(a) {
  
    this.a=a;
  /* constructor(input) {
@@ -49,15 +61,3 @@ module.exports = function main() {
 }
 
     
-    
-    
-    
-    
-    var sequence = new Sequence([6, 9, 15, -2, 92, 11]);
-    console.log(`o) 最小值 = ${sequence.minimum()}
-o) 最大值 = ${sequence.maxmum()}
-o) 元素数量 = ${sequence.length()}
-o) 平均值 = ${sequence.avgmum()}  
-`);
-};
-
