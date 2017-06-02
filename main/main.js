@@ -36,7 +36,7 @@ function Sequence(a) {
         var max=a[0];
       
       for(var i=1;i<a.length;i++)
-          if(max>a[i])
+          if(max<a[i])
               max=a[i];
       return max;
     }
